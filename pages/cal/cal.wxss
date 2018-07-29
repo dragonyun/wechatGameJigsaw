@@ -1,0 +1,43 @@
+page{
+    height: 100%;
+    background-color: #ccc;
+}
+.content{
+    
+    align-items: center;
+    background-color: #ccc;
+}
+.container{
+    position: relative;
+}
+.icon-scan{
+    position: absolute;
+    right: 15px;
+    z-index: 4;
+    background-image: url('http://oonitix9h.bkt.clouddn.com/image/png/scan.png');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-size: contain;
+    margin-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+.classname{
+    text-align: center;
+}
+input{
+    border:1px solid #1AAD19; 
+    width:90%; 
+    height:20px; 
+    font-size:12px; 
+    padding:5px 5px;
+    margin: 0 auto;
+    border-radius: 3px; 
+}
+
+button{
+     margin-top:20px;
+     width:200rpx;
+ }
+.expressinfo{font-size:12px; line-height: 18px;padding:10px; text-align:left;} 
+.expressinfo li{display:block}

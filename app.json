@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/cal/cal",
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1AAD19",
+    "navigationBarTitleText": "Y快递单号查询",
+    "navigationBarTextStyle":"black"
+  
+  },
+  "tabBar": {
+    "backgroundColor":"#ccc",
+    "list": [{
+      "pagePath": "pages/cal/cal",
+      "text": "主页",
+      "iconPath": "pages/assets/img/05.png",
+      "selectedIconPath": "pages/assets/img/05.png"
+    },
+    {
+      "pagePath": "pages/index/index",
+      "text": "副页",
+      "iconPath": "pages/assets/img/06.png",
+      "selectedIconPath": "pages/assets/img/06.png"
+    }
+    ]
+  }
+}

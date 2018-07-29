@@ -1,0 +1,17 @@
+
+<view class="content">
+    <view class="container">
+    <icon type="String" class="icon-scan" bindtap="scan" />
+        <input type="number" placeholder="请输入快递单号" bindinput="input" go="scan"/>
+        <button type="primary" bindtap="btnClick">查询                </button>
+    </view>
+    <view class="classname">{{expressInfo.showapi_res_body.expTextName}}
+    </view>
+
+    <view class="expressinfo" wx:for="{{expressInfo.showapi_res_body.data}}">
+        <ul>
+        <li>{{item.context}}</li>
+        <li>{{item.time}}</li> 
+        </ul> 
+    </view>
+</view>
